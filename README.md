@@ -13,12 +13,12 @@ guide of rest code
 **Download REST code**                                                                                                           
  sudo git clone https://github.com/mazi-project/rest.git
 
-**Install ruby and gem rest-client**
- sudo apt-get install ruby
- sudo apt-get install ruby-dev
+**Install ruby and gem rest-client**                                                                                         
+ sudo apt-get install ruby                                                                                                   
+ sudo apt-get install ruby-dev                                                                                               
  sudo gem install rest-client
 
-**Set name of your Raspberry pi**
+**Set name of your Raspberry pi**                                                                                             
  sudo nano restClient.rb
                  
 
@@ -29,10 +29,10 @@ More specifically from one client (raspberry pi) we can transfer data sach as na
 date and online users to a server which can keep them to a DataBase. Also every client
 will can restore the elements which there an in the DataBase.
 
-**client side**
-Post data to the Server
-sudo ruby restClient.rb
+**client side**                                                                                                               
+Post data to the Server                                                                                                       
+sudo ruby restClient.rb                                                                                                       
 
-Get data from the Server
+Get data from the Server                                                                                                     
 GET 10.64.45.206:8080/users
 
