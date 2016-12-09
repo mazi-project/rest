@@ -36,3 +36,4 @@ sudo ruby restClient.rb
 Get data from the Server                                                                                                     
 GET 10.64.45.206:8080/users
 
+![untitled 1](https://cloud.githubusercontent.com/assets/17981858/21064439/6aec90fe-be63-11e6-9c4a-f4de9260bfd1.jpg)
