@@ -4,8 +4,8 @@ require 'rest-client'
 
 
 # RASPBERRY NEME AND SERVER IP
-ip = 192.168.1.7
-name = rasp_john
+ip = "192.168.1.7"
+name = "rasp_john"
 
 #READ FILE FUNCTION
 def read_file(file_name)
