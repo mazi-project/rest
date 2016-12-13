@@ -2,15 +2,12 @@ require 'sinatra'
 require 'rubygems'
 require 'mysql' 
 
-set :bind, '10.64.45.206'
+set :bind, '10.64.45.232'
 set :port, 8080
 
 
 
 # view all
-get "/user" do
-print("hello user") 
-end
 get '/users' do
   begin 
     #connect to DATABASE mydb
@@ -27,12 +24,13 @@ get '/users' do
     print("+==+=========+==========================+=====+ \n")
 
     n_rows.times do
-#      print ("| ")
       print rs.fetch_row.join("|\s")
       print("\n")
-#      print("+--+---------+--------------------------+-----+ \n")
     end
-    
+    #return hash table online
+    ps = con.query("SELECT * FROM ONLINE")
+    return ps
+
   rescue Mysql:: Error => e
     puts e.errno
     puts e.error
