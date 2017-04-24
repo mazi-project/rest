@@ -5,7 +5,7 @@ guide of rest code
 # Requirements 
 
 * Raspberry pi
-* INURA image . You can download from these link http://nitlab.inf.uth.gr/mazi-img/
+* INURA image . You can download from this link http://nitlab.inf.uth.gr/mazi-img/
 * Internet connection
 
 # Set up
